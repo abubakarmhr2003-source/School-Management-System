@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules
+.next
+out
+
+# secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# local databases and logs
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# misc
+.DS_Store
+.vercel
